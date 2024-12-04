@@ -10,6 +10,7 @@ import { JwtConfigService } from './services/jwt.config.service';
 import { HttpControllers } from './controllers';
 import { RepositoryProviders } from './providers';
 import { PrismaService } from './services/prisma.service';
+import { MailService } from './services/mail.service';
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import { PrismaService } from './services/prisma.service';
   providers: [
     ...RepositoryProviders,
     PrismaService,
+    MailService,
     {
       provide: APP_INTERCEPTOR,
       useClass: ResponseInterceptor,
@@ -33,6 +35,6 @@ import { PrismaService } from './services/prisma.service';
       useClass: ErrorFilter,
     },
   ],
-  exports: [...RepositoryProviders, PrismaService],
+  exports: [...RepositoryProviders, PrismaService, MailService],
 })
 export class InfrastructureModule {}
