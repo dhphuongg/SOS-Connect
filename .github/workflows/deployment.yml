@@ -52,7 +52,5 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
-            cd /home/sos-connect/sc-server
-            docker compose down
-            docker rm -f ${{ secrets.DOCKERHUB_USERNAME }}/sc_server:latest || true
-            docker compose up -d --build
+            chmod +x /home/sos-connect/sc-server/deploy.sh
+            /home/sos-connect/sc-server/deploy.sh
