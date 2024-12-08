@@ -18,7 +18,9 @@
 """
 
 import os
-from langchain.chains.retrieval_qa.base import RetrievalQA
+import base64
+import google.generativeai as genai
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.vectorstores import Chroma
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
@@ -36,6 +38,7 @@ class LanguageModel:
         self.embedding = GoogleGenerativeAIEmbeddings(model=self.embedding_name,google_api_key= os.getenv("GOOGLE_API_KEY"))
         self.model = ChatGoogleGenerativeAI(model=self.model_name, api_key=os.getenv("GOOGLE_API_KEY"),
                                temperature=self.temperature,convert_system_message_to_human=self.human_message)
+        self.vision_model = genai.GenerativeModel(model_name=self.model_name, api_key=os.getenv("GOOGLE_API_KEY"))
         self.vector_indx = Chroma.from_texts(self.texts, self.embedding, persist_directory=self.vector_store)
         self.vector_indx.persist()
         return self.embedding, self.model, self.vector_indx
@@ -43,4 +46,11 @@ class LanguageModel:
     def answer(self, question, prompt):
         context = self.vector_indx.similarity_search(question, k = 5)
         context = "\n".join(doc.page_content for doc in context)
-        return self.model.invoke(prompt.format(context=context, question=question))
+        return self.model.invoke(prompt.format(context=context, question=question)).content
+    
+    def answer_image(self, question, image):    
+        response = self.vision_model.generate_content([{'mime_type':'image/jpeg', 'data': base64.b64encode(image.content).decode('utf-8')}, question])
+        return response.text
+    
+    def anwer_voice(self, audio_link):
+        pass

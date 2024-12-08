@@ -16,8 +16,10 @@
   You should have received a copy of the GNU General Public License
   along with SOS Connect.  If not, see <http://www.gnu.org/licenses/>.
 """
+import httpx
 
-from fastapi import APIRouter, HTTPException, Form
+from fastapi import APIRouter, HTTPException, Form, UploadFile
+from typing import Optional
 from configs import CFG
 from utils import Prompt
 from dataloader import Data
@@ -49,10 +51,16 @@ prompt = Prompt(template)
 prom = prompt()
 
 @router.post("/text-generate")
-async def generate_content_endpoint(question : str = Form(...)):
+async def generate_content_endpoint(question : str = Form(...),
+                                    image: Optional[UploadFile] = None):
+    if image is not None:
+        image = httpx.get(image)
+      
     try:
-        response = model.answer(question, prom)
+        if image is not None:
+            response = model.answer_image(question, image)
+        response = model.answer(question, prompt)
 
-        return response.content
+        return response
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
