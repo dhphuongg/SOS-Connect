@@ -1,102 +1,96 @@
-### 🩺 AI Healthcare Chatbot  
+### 🩺 Chatbot AI Chăm Sóc Sức Khỏe
 
 ---
 
-#### **🌟 Overview**  
-The **AI Healthcare Chatbot** is a conversational assistant designed to provide fast, accurate, and empathetic responses to healthcare-related queries. It combines cutting-edge AI with a user-friendly interface to help users make informed decisions about their health.  
+#### **🌟 Tổng Quan**  
+**Chatbot AI Chăm Sóc Sức Khỏe** là một trợ lý trò chuyện được thiết kế để cung cấp các phản hồi nhanh chóng, chính xác và đầy cảm thông cho các câu hỏi liên quan đến sức khỏe. Sản phẩm kết hợp công nghệ AI với giao diện thân thiện giúp người dùng đưa ra các quyết định thông minh về sức khỏe.
 
 ---
 
-#### **✨ Features**  
-- 🧑‍⚕️ **Personalized Interaction**: Tailored responses based on user inputs.  
-- ⚕️ **Medical Guidance**: Offers advice on symptoms, prevention, and temporary treatments.  
-- 🖥️ **User-Friendly Design**: Clean, intuitive interface for effortless interaction.  
-- 🔒 **Privacy & Security**: Compliant with healthcare data regulations like **HIPAA**/**GDPR**.  
-- 📢 **Escalation Support**: Recommends seeking professional medical help when necessary.  
+#### **✨ Tính Năng**  
+- 🧑‍⚕️ **Tương Tác Cá Nhân**: Phản hồi được tùy chỉnh theo thông tin nhập từ người dùng.  
+- ⚕️ **Hướng Dẫn Y Tế**: Đưa ra lời khuyên về triệu chứng, phòng ngừa và cách điều trị tạm thời.  
+- 🖥️ **Thiết Kế Thân Thiện**: Giao diện đơn giản, trực quan giúp việc sử dụng trở nên dễ dàng.  
+- 🔒 **Bảo Mật & Riêng Tư**: Tuân thủ các quy định dữ liệu sức khỏe như **HIPAA**/**GDPR**.  
+- 📢 **Hỗ Trợ Chuyển Hướng**: Khuyến nghị liên hệ chuyên gia y tế khi cần thiết.  
 
 ---
 
-#### **🚀 Installation**  
-1. **Clone the repository**:  
-   ```bash
-   git clone https://github.com/your-repo/healthcare-chatbot.git
-   cd healthcare-chatbot
-   ```  
+#### **🚀 Hướng Dẫn Cài Đặt**  
+1. **Thiết lập môi trường ảo**:  
+- Chuyển directory đến module AI:
+    ```bash
+    cd AI
+    ```
+- Tạo môi trường ảo bằng file environment.yml:
+    ```bash
+    conda env create -f environment.yml
+    conda activate health-care
+    ```
 
-2. **Set up virtual environment**:  
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```  
-
-3. **Install dependencies**:  
+3. **Cài đặt thư viện phụ thuộc**:  
    ```bash
    pip install -r requirements.txt
    ```  
 
-4. **Configure environment variables**:  
-   - Create a `.env` file with the following keys:  
-     ```env
-     API_KEY=your_api_key
-     MODEL_NAME=your_model_name
-     DATA_PATH=your_data_path
+4. **Cấu hình biến môi trường**:
+   ```env
+   GOOGLE_API_KEY=your_api_key
      ```  
 
-5. **Run the chatbot**:  
+5. **Chạy chatbot**:  
    ```bash
    python3 -m executor.main
    ```  
 
 ---
 
-#### **💡 Usage**  
-- The chatbot answers healthcare-related questions, including:  
-  - 🔍 Symptoms and causes of diseases.  
-  - 🩹 Basic first aid instructions.  
-  - 🌱 Preventive healthcare advice.  
-- Example prompt:  
+#### **💡 Sử Dụng**  
+- Chatbot trả lời các câu hỏi liên quan đến sức khỏe, bao gồm:  
+  - 🔍 Triệu chứng và nguyên nhân của bệnh.
+  - 🩹 Hướng dẫn sơ cứu cơ bản.
+  - 🌱 Lời khuyên chăm sóc sức khỏe phòng ngừa.  
+- Ví dụ prompt:  
   ```text
-  "What are the symptoms of the flu, and how can I manage it at home?"
+  "Các triệu chứng của cúm là gì và tôi có thể xử lý tại nhà như thế nào?"
   ```  
 
 ---
 
-#### **🛠️ Technologies Used**  
-- 🐍 **Python**: Backend development.  
-- 🤖 **Generative AI**: Powered by Google Gemini API.  
-- 🐳 **Docker**: Containerized deployment.  
-- 🎨 **Rich**: For terminal-based user interface enhancements.  
+#### **🛠️ Công Nghệ Sử Dụng**  
+- 🐍 **Python, FastAPI**: Phát triển backend.  
+- 🤖 **Generative AI**: Sử dụng mô hình ngôn ngữ lớn từ Google Gemini.
+- **LangChain**: một thư viện Python mã nguồn mở giúp xây dựng các ứng dụng dựa trên mô hình ngôn ngữ (LLMs) như GPT, BERT, hay các mô hình học sâu khác.
+- **ChromaDB**: cơ sở dữ liệu vector hỗ trợ các ứng dụng AI, đặc biệt là trong việc xử lý và tìm kiếm thông tin từ các vector embeddings.
+- 🐳 **Docker, Docker-Compose**: Triển khai container hóa.  
+- 🎨 **Rich**: Cải tiến giao diện dòng lệnh.  
 
 ---
 
-#### **🤝 Contributing**  
-We welcome contributions! Here's how you can help:  
-1. 🍴 **Fork** the repository.  
-2. 🌱 Create a **feature branch**:  
+#### **🤝 Đóng Góp**  
+Chúng tôi hoan nghênh các đóng góp! Làm theo các bước sau:  
+1. 🍴 **Fork** kho mã nguồn.  
+2. 🌱 Tạo nhánh tính năng:  
    ```bash
    git checkout -b feature-name
    ```  
-3. 💾 **Commit your changes**:  
+3. 💾 **Commit thay đổi**:  
    ```bash
    git commit -m "Add feature"
    ```  
-4. 📤 **Push to the branch**:  
+4. 📤 **Đẩy nhánh lên**:  
    ```bash
    git push origin feature-name
    ```  
-5. 🔁 **Submit a Pull Request**.  
+5. 🔁 **Gửi Pull Request**.  
 
 ---
 
-#### **📜 License**  
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.  
+#### **📜 Giấy Phép**  
+Dự án này được cấp phép theo giấy phép **GNU GENERAL PUBLIC LICENSE**. Xem file `LICENSE` để biết thêm chi tiết.  
 
 ---
 
-#### **📬 Contact**  
-- ✉️ **Email**: support@healthcarebot.com  
-- 🐙 **GitHub Issues**: [Open an issue](https://github.com/your-repo/healthcare-chatbot/issues)  
-
----
-
-🎉 *Stay healthy and take care!*
+#### **📬 Liên Hệ**  
+- ✉️ **Email**: phamdt203@gmail.com
+- 🐙 **GitHub Issues**: [Mở issue](https://github.com/HIT-OS/SOS-CONNECT-BE/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=)
