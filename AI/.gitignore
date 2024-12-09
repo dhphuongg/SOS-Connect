@@ -1,0 +1,11 @@
+# directory
+saved/
+dataset/
+__pycache__/
+vector_store/
+
+# environment
+.env
+
+# file
+*.csv

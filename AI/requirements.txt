@@ -1,0 +1,8 @@
+unsloth
+torch
+datasets
+langchain
+langchain_community
+pandas
+fastapi
+google-generativeai
