@@ -1,15 +1,10 @@
+# SOS Connect - Backend
+
 [![Github license](https://img.shields.io/github/license/CTU-LinguTechies/VN-Law-Advisor.svg 'Github license')](https://github.com/HIT-OS/SOS-CONNECT-BE/blob/main/LICENSE)
 [![Open issues](https://img.shields.io/github/issues/CTU-LinguTechies/VN-Law-Advisor.svg 'Open issues')](https://github.com/HIT-OS/SOS-CONNECT-BE/issues)
 [![Open Pull Requests](https://img.shields.io/github/issues-pr/CTU-LinguTechies/VN-Law-Advisor.svg 'Open Pull Requests')](https://github.com/HIT-OS/SOS-CONNECT-BE/pulls)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/CTU-LinguTechies/VN-Law-Advisor.svg 'Commit activity')](https://github.com/HIT-OS/SOS-CONNECT-BE/graphs/commit-activity)
 [![GitHub contributors](https://img.shields.io/github/contributors/CTU-LinguTechies/VN-Law-Advisor.svg 'Github contributors')](https://github.com/HIT-OS/SOS-CONNECT-BE/graphs/contributors)
-# SOS Connect - Backend
-
-<a href="https://github.com/HIT-OS/SOS-CONNECT-BE/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=">Bug Report ⚠️
-</a>
-
-<a href="https://github.com/HIT-OS/SOS-CONNECT-BE/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=">Request Feature 👩‍💻</a>
-
 
 🎉 Chào mừng bạn đến với kho mã nguồn backend của **SOS Connect**, một ứng dụng được thiết kế để cung cấp hỗ trợ khẩn cấp theo thời gian thực và các dịch vụ liên lạc. Backend này xử lý quản lý người dùng, báo cáo sự cố, thông báo theo thời gian thực, và lưu trữ dữ liệu.
 
@@ -33,6 +28,9 @@
 ✨ **Quản lý người dùng:**
   - Đăng ký, xác thực và kiểm soát truy cập dựa trên vai trò.
 
+✨ **Heatmap cho sự cố báo cáo**:
+   -  Tính năng heatmap sẽ giúp hiển thị các sự cố khẩn cấp trên bản đồ, với các vùng có sự cố nhiều hơn được làm nổi bật bằng màu sắc. 
+
 📍 **Báo cáo sự cố:**
   - API để báo cáo các trường hợp khẩn cấp cùng dữ liệu vị trí.
 
@@ -49,117 +47,71 @@
 
 ## **Công nghệ sử dụng**
 
-- **Ngôn ngữ lập trình:** 🐍 Python, JavaScript
-- **Framework:** 🚀 FastAPI, TypeScript
-- **Cơ sở dữ liệu:** 🐘 PostgreSQL
-- **Giao tiếp thời gian thực:** 📡 WebSocket (vd: Socket.IO)
-- **Thông báo đẩy:** 🔥 Firebase Cloud Messaging (FCM)
-- **Xác thực:** 🔑 JWT (JSON Web Tokens)
-- **Triển khai:** 🐳 Docker, Docker-Compose
+- **Grafana**: Công cụ giám sát và trực quan hóa dữ liệu với bảng điều khiển động từ nhiều nguồn dữ liệu.
+- **LangFlow**: Công cụ trực quan hóa giúp thiết kế luồng công việc và kết nối các thành phần của LangChain.
+- **FastAPI**: Framework Python nhanh chóng và hiệu quả, hỗ trợ WebSocket và sinh tài liệu API tự động.
+- **TypeScript**: Ngôn ngữ phát triển trên JavaScript với kiểm tra kiểu tĩnh giúp tăng tính chính xác và bảo trì.
+- **LangChain**: Thư viện Python hỗ trợ xây dựng ứng dụng ngôn ngữ tự nhiên phức tạp.
+- **ChromaDB**: Cơ sở dữ liệu vector để lưu trữ và truy vấn embeddings từ mô hình học sâu.
+- **Redis**: Hệ thống lưu trữ dữ liệu trong bộ nhớ cho quản lý phiên và cache.
+- **Budibase**: Nền tảng low-code phát triển ứng dụng web tích hợp cơ sở dữ liệu và giao diện trực quan.
+- **FlutterFlow**: Nền tảng low-code phát triển ứng dụng di động với giao diện đẹp mắt.
+- **Google AI Studio**: Công cụ phát triển ứng dụng AI của Google hỗ trợ xây dựng các ứng dụng thông minh.
+- **Docker**: Nền tảng container hóa phần mềm cho phép chạy ứng dụng mọi nơi.
+- **Docker-Compose**: Công cụ giúp quản lý các ứng dụng Docker đa container dễ dàng.
 
 ---
 
 ## **Cài đặt**
 
-### Yêu cầu
+### 🔨 Cài Đặt
 
-- 🐍 Python 3.11.10
-- 🐘 PostgreSQL
-- 🛠️ Redis
-- 🐳 Docker và Docker-Compose(tùy chọn để triển khai container hóa)
+- Trước hết, hãy clone dự án về máy tính của bạn:
 
-### Khởi chạy
-
-1. Sao chép kho mã nguồn:
-   ```bash
-   git clone https://github.com/HIT-OS/SOS-CONNECT-BE.git
-   cd SOS-CONNECT-BE
-   ```
-
-2. Tạo môi trường ảo và kích hoạt:
-- Chuyển directory đến module AI:
-    ```bash
-    cd AI
-    ```
-- Tạo môi trường ảo bằng file environment.yml:
-    ```bash
-    conda env create -f environment.yml
-    conda activate health-care
-    ```
-
-3. Cài đặt các thư viện phụ thuộc:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Chạy ứng dụng cục bộ:
-   ```bash
-   python main.py
-   ```
-
-6. Truy cập API tại:
-   ```
-   http://127.0.0.1:8000
-   ```
-
----
-
-## **Cấu hình**
-
-Tạo file `.env` trong thư mục gốc của dự án và thêm các biến sau:
-
-```env
-DATABASE_URL=postgresql://username:password@localhost:5432/sos_connect
-SECRET_KEY=your_secret_key
-REDIS_URL=redis://localhost:6379/0
-FCM_SERVER_KEY=your_firebase_server_key
+```bash
+git clone https://github.com/HIT-OS/SOS-CONNECT-BE.git
 ```
 
-Đối với triển khai bằng Docker, đảm bảo file `.env` được bao gồm trong `docker-compose.yml`.
+- Di chuyển vào thư mục vnlawadvisor:
+
+```bash
+cd sos-connect-be
+```
+
+- Di chuyển vào thư mục AI để chạy service chatbot:
+```bash
+cd AI
+```
+
+Và tiếp tục theo hướng dẫn trong thư mục law-crawler [README.md](./AI/README.md).
 
 
 ## **Cách sử dụng**
 
-### Chạy với Docker
+### Chạy với Docker-Compose
 
 1. Xây dựng và chạy các container:
    ```bash
    docker-compose up --build
    ```
 
-2. Truy cập ứng dụng tại `http://127.0.0.1:8000`.
-
-### Chạy kiểm tra
-
-Chạy bộ kiểm tra với `pytest`:
-```bash
-pytest
-```
-
 ---
 
-## **Đóng góp**
+## 🙌 Đóng góp cho dự án
 
-Chúng tôi hoan nghênh các đóng góp! Thực hiện các bước sau:
+<a href="https://github.com/HIT-OS/SOS-CONNECT-BE/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=">Bug Report ⚠️
+</a>
 
-1. 🍴 Fork kho mã nguồn.
-2. 🌿 Tạo nhánh tính năng:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. 💾 Commit các thay đổi:
-   ```bash
-   git commit -m "Add your message"
-   ```
-4. 📤 Đẩy nhánh lên:
-   ```bash
-   git push origin feature-name
-   ```
-5. 🔃 Gửi pull request.
+<a href="https://github.com/HIT-OS/SOS-CONNECT-BE/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=">Request Feature 👩‍💻</a>
 
----
+Mọi đóng góp của các bạn đều được trân trọng, đừng ngần ngại gửi pull request cho dự án.
 
-## **Giấy phép**
+## Liên hệ
 
-Dự án này được cấp phép theo giấy phép MIT. Xem file `LICENSE` để biết thêm chi tiết.
+- Phạm Đình Tiến: phamdt203@gmail.com
+- Đặng Hoàng Phương: hoangphuong270703@gmail.com
+- Nguyễn Tiến Kiên: tienkiennropro@gmail.com
 
+## 📝 License
+
+This project is licensed under the terms of the [GPL V3](LICENSE) license.
