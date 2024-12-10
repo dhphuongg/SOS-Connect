@@ -10,7 +10,7 @@
 
 ---
 
-Mục lục
+## Mục lục
 
 - [✨ Tính năng](#-tính-năng)
 - [💻 Công nghệ sử dụng](#-công-nghệ-sử-dụng)
@@ -99,6 +99,10 @@ Chạy lệnh trên prompt hoặc terminal sẽ khởi động cụm Budibase, v
     <img src="docs/images/new-app-with-import.png">
 </p>
 
+4. Cài đặt LangFlow platform:
+
+- Xem chi tiết hướng dẫn và giới thiệu tại [README](AI/README.md)
+
 ---
 
 ## 🤝 Đóng góp cho dự án
@@ -115,6 +119,10 @@ Mọi đóng góp của các bạn đều được trân trọng, đừng ngần
 - Phạm Đình Tiến: phamdt203@gmail.com
 - Đặng Hoàng Phương: hoangphuong270703@gmail.com
 - Nguyễn Tiến Kiên: tienkiennropro@gmail.com
+
+## ❤️ Người đóng góp
+
+[![sos-connect](https://contrib.rocks/image?repo=HIT-OS/SOS-CONNECT-BE)](https://github.com/HIT-OS/SOS-CONNECT-BE/graphs/contributors)
 
 ## 📝 License
 

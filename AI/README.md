@@ -1,96 +1,63 @@
-### 🩺 Chatbot AI Chăm Sóc Sức Khỏe
+![Langflow](../docs/images/hero.png)
 
----
+<p align="center" style="font-size: 12px;">
+    Langflow là một nền tảng low code mã nguồn mở ứng dụng trong việc xây dựng các sản phẩm ít mã nguồn cho RAG và các ứng dụng multi-agent AI. Sản phẩm này được code dựa trên Python và có thể tích hợp bất kỳ một model, API hay cơ sở dữ liệu nào khi cần thiết.
+</p>
 
-#### **🌟 Tổng Quan**  
-**Chatbot AI Chăm Sóc Sức Khỏe** là một trợ lý trò chuyện được thiết kế để cung cấp các phản hồi nhanh chóng, chính xác và đầy cảm thông cho các câu hỏi liên quan đến sức khỏe. Sản phẩm kết hợp công nghệ AI với giao diện thân thiện giúp người dùng đưa ra các quyết định thông minh về sức khỏe.
+<p align="center" style="font-size: 12px;">
+    <a href="https://docs.langflow.org" style="text-decoration: underline;">Docs</a> -
+    <a href="https://astra.datastax.com/signup?type=langflow" style="text-decoration: underline;">Free Cloud Service</a> -
+    <a href="https://docs.langflow.org/get-started-installation" style="text-decoration: underline;">Self Managed</a>
 
----
+</p>
 
-#### **✨ Tính Năng**  
-- 🧑‍⚕️ **Tương Tác Cá Nhân**: Phản hồi được tùy chỉnh theo thông tin nhập từ người dùng.  
-- ⚕️ **Hướng Dẫn Y Tế**: Đưa ra lời khuyên về triệu chứng, phòng ngừa và cách điều trị tạm thời.  
-- 🖥️ **Thiết Kế Thân Thiện**: Giao diện đơn giản, trực quan giúp việc sử dụng trở nên dễ dàng.  
-- 🔒 **Bảo Mật & Riêng Tư**: Tuân thủ các quy định dữ liệu sức khỏe như **HIPAA**/**GDPR**.  
-- 📢 **Hỗ Trợ Chuyển Hướng**: Khuyến nghị liên hệ chuyên gia y tế khi cần thiết.  
+## ✨ Các tính năng nổi bật của LangFlow
 
----
+1. **Dựa trên Python** và không phụ thuộc vào mô hình, API, nguồn dữ liệu hoặc cơ sở dữ liệu.
+2. **Giao diện IDE trực quan** cho việc xây dựng và thử nghiệm các workflow bằng cách kéo và thả.
+3. **Playground** để thử nghiệm và lặp lại các workflow ngay lập tức với điều khiển từng bước.
+4. **Quản lý nhiều tác nhân** và điều phối cuộc trò chuyện, cũng như truy xuất dữ liệu.
+5. **Dịch vụ đám mây miễn phí** giúp bắt đầu trong vài phút mà không cần thiết lập.
+6. **Xuất bản dưới dạng API** hoặc xuất ra ứng dụng Python.
+7. **Quan sát** với tích hợp LangSmith, LangFuse hoặc LangWatch.
+8. **Bảo mật và khả năng mở rộng cấp doanh nghiệp** với dịch vụ đám mây Langflow miễn phí của DataStax.
+9. **Tùy chỉnh workflow** hoặc tạo flow hoàn toàn chỉ bằng Python.
+10. **Tích hợp hệ sinh thái** như các thành phần tái sử dụng cho bất kỳ mô hình, API hoặc cơ sở dữ liệu nào.
 
-#### **🚀 Hướng Dẫn Cài Đặt**  
-1. **Thiết lập môi trường ảo**:  
-- Chuyển directory đến module AI:
-    ```bash
-    cd AI
+## **✨ Hướng dẫn sử dụng LangFlow cơ bản**
+[![Getting Started](https://github.com/user-attachments/assets/f1adfbe7-3c35-43a4-b265-661f3d4f875f)](https://www.youtube.com/watch?v=kinngWhaUKM)
+
+## **✨ Hướng dẫn cài đặt LangFlow platform**
+
+Để bắt đầu với LangFlow, bạn cần cài đặt và dựng lại nền tảng trên chính thiết bị của bạn.
+1. Clone LangFlow repository:
+   ```bash
+    git clone https://github.com/langflow-ai/langflow.git
+   ```
+2. Di chuyển đến thư mục docker_example:
+   ```bash
+    cd langflow/docker_example
     ```
-- Tạo môi trường ảo bằng file environment.yml:
-    ```bash
-    conda env create -f environment.yml
-    conda activate health-care
-    ```
 
-3. **Cài đặt thư viện phụ thuộc**:  
+3. Chạy file Docker Compose:
    ```bash
-   pip install -r requirements.txt
-   ```  
+    docker compose up -d
+   ```
 
-4. **Cấu hình biến môi trường**:
-   ```env
-   GOOGLE_API_KEY=your_api_key
-     ```  
+4. Truy cập vào LangFlow http://localhost:7860/ (nếu bạn dưng trên chính máy chủ của mình) hoặc http://your-ip-address:7860/ (nếu bạn dựng trên server của mình). Tiếp theo, bạn tạo mới một Flow cho AI với lựa chọn `Import`, thêm file import ([link tải](http://)) và bắt đầu phát triển ứng dụng.
 
-5. **Chạy chatbot**:  
-   ```bash
-   python3 -m executor.main
-   ```  
+<p align="center">
+    <img src="../docs/images/langflow-import.png">
+</p>
+
+- Sau khi đã import xong chúng ta có thể sử dụng API key của mô hình bằng cách nhấn vào API ở trên góc phải màn hình.
 
 ---
 
-#### **💡 Sử Dụng**  
-- Chatbot trả lời các câu hỏi liên quan đến sức khỏe, bao gồm:  
-  - 🔍 Triệu chứng và nguyên nhân của bệnh.
-  - 🩹 Hướng dẫn sơ cứu cơ bản.
-  - 🌱 Lời khuyên chăm sóc sức khỏe phòng ngừa.  
-- Ví dụ prompt:  
-  ```text
-  "Các triệu chứng của cúm là gì và tôi có thể xử lý tại nhà như thế nào?"
-  ```  
+#### **📬 Liên Hệ và Góp Ý**
 
----
-
-#### **🛠️ Công Nghệ Sử Dụng**  
-- 🐍 **Python, FastAPI**: Phát triển backend.  
-- 🤖 **Generative AI**: Sử dụng mô hình ngôn ngữ lớn từ Google Gemini.
-- **LangChain**: một thư viện Python mã nguồn mở giúp xây dựng các ứng dụng dựa trên mô hình ngôn ngữ (LLMs) như GPT, BERT, hay các mô hình học sâu khác.
-- **ChromaDB**: cơ sở dữ liệu vector hỗ trợ các ứng dụng AI, đặc biệt là trong việc xử lý và tìm kiếm thông tin từ các vector embeddings.
-- 🐳 **Docker, Docker-Compose**: Triển khai container hóa.  
-- 🎨 **Rich**: Cải tiến giao diện dòng lệnh.  
-
----
-
-#### **🤝 Đóng Góp**  
-Chúng tôi hoan nghênh các đóng góp! Làm theo các bước sau:  
-1. 🍴 **Fork** kho mã nguồn.  
-2. 🌱 Tạo nhánh tính năng:  
-   ```bash
-   git checkout -b feature-name
-   ```  
-3. 💾 **Commit thay đổi**:  
-   ```bash
-   git commit -m "Add feature"
-   ```  
-4. 📤 **Đẩy nhánh lên**:  
-   ```bash
-   git push origin feature-name
-   ```  
-5. 🔁 **Gửi Pull Request**.  
-
----
-
-#### **📜 Giấy Phép**  
-Dự án này được cấp phép theo giấy phép **GNU GENERAL PUBLIC LICENSE**. Xem file `LICENSE` để biết thêm chi tiết.  
-
----
-
-#### **📬 Liên Hệ**  
+Nếu bạn có bất kỳ câu hỏi nào hoặc muốn đóng góp cho dự án, bạn có thể liên hệ qua email hoặc GitHub Issues:
 - ✉️ **Email**: phamdt203@gmail.com
-- 🐙 **GitHub Issues**: [Mở issue](https://github.com/HIT-OS/SOS-CONNECT-BE/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=)
+- 🐙 **GitHub Issues**: [Issue]("https://github.com/HIT-OS/SOS-CONNECT-BE/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=")
+
+
