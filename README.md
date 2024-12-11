@@ -148,6 +148,9 @@ Mọi đóng góp của các bạn đều được trân trọng, đừng ngần
 - Đặng Hoàng Phương: hoangphuong270703@gmail.com
 - Nguyễn Tiến Kiên: tienkiennropro@gmail.com
 
+## 💬 Cộng đồng
+
+Nếu bạn có bật cứ câu hỏi nào hoặc muốn nói chuyện và đóng góp với các nguwofi dùng Budibase khác, bạn có thể join vào cộng đồng của dự án [Github discussions](https://github.com/HIT-OS/SOS-CONNECT/discussions).
 ## ❤️ Người đóng góp
 
 [![sos-connect](https://contrib.rocks/image?repo=HIT-OS/SOS-CONNECT-BE)](https://github.com/HIT-OS/SOS-CONNECT-BE/graphs/contributors)
