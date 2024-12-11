@@ -1,9 +1,9 @@
 # SOS-Connect [![Demo]()]() [![Documentation]()]()
 
-<a href="https://github.com/HIT-OS/SOS-CONNECT-BE/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=">Bug Report ⚠️
+<a href="https://github.com/HIT-OS/SOS-CONNECT/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=">Bug Report ⚠️
 </a>
 
-<a href="https://github.com/HIT-OS/SOS-CONNECT-BE/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=">Request Feature 👩‍💻</a>
+<a href="https://github.com/HIT-OS/SOS-CONNECT/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=">Request Feature 👩‍💻</a>
 
 ## Changelog
 
