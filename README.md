@@ -11,7 +11,7 @@
 ---
 
 ## Mục lục
-
+- [💾 Giới thiệu](#-giới-thiệu)
 - [✨ Tính năng](#-tính-năng)
 - [💻 Công nghệ sử dụng](#-công-nghệ-sử-dụng)
 - [🛠️ Cài đặt](#️-cài-đặt)
@@ -21,9 +21,21 @@
 
 ---
 
+## Giới thiệu
+
+Ứng dụng SOS Connect giúp kết nối giữa nhân dân với tình nguyện viên, thực hiện kêu gọi cứu trợ khi gặp trở ngại khó khăn, thống kê về thiệt hại và hỗ trợ cứu trợ sau thiên tai hoặc dịch bệnh. Mục tiêu của dự án là phát triển một hệ thống dựa trên các nền tảng LCDP mã nguồn mở để kết nối các các tình nguyện viên với các tổ chức chính quyền địa phường, các tổ chức muốn tham gia hỗ trợ tái thiết sau thiên tai và dịch bệnh, phục hồi cuộc sống, kinh tế, xã hội của đất nước.
+
+Dự án được thực hiện trong cuộc thi Phần Mềm Nguồn Mở Olympic Tin học Sinh viên Việt Nam 2024. Được cấp phép nguồn mở theo giấy phép [GPL V3](https://www.gnu.org/licenses/gpl-3.0.html) bởi đội HaUI.HIT-OS13.
+
+Để biết thêm chi tiết về cuộc thi, mọi người có thể xem đề tài của cuộc thi tại [đây](docs/exam_topic_open_source_2024.pdf), thông tin về cuộc thi mã nguồn mở của Olympic Tin Học Sinh Viên năm 2024 tại [đây](https://vfossa.vn/tin-tuc/cong-bo-de-thi-noi-dung-phan-mem-nguon-mo-olympic-tin-hoc-sinh-vien-viet-nam-2024-727.html).
+
+Để hiểu rõ hơn về hệ thống của dự án, có thể đọc tài liệu đặc tả của dự án tại [đây](docs/SRS_SOS_Connect.pdf)
+
+---
+
 ## ✨ Tính năng
 
-✨ **Quản lý người dùng:**
+💾 **Quản lý người dùng:**
 
 - Đăng ký, xác thực và kiểm soát truy cập dựa trên vai trò.
 
@@ -52,7 +64,7 @@
 ## 💻 Công nghệ sử dụng
 
 - **Grafana**: Công cụ giám sát và trực quan hóa dữ liệu với bảng điều khiển động từ nhiều nguồn dữ liệu.
-- **LangFlow**: Công cụ trực quan hóa giúp thiết kế luồng công việc và kết nối các thành phần của LangChain.
+- **LangFlow**: Công cụ Low Code mã nguồn mở trực quan hóa giúp thiết kế luồng công việc và kết nối các thành phần của LangChain.
 - **FastAPI**: Framework Python nhanh chóng và hiệu quả, hỗ trợ WebSocket và sinh tài liệu API tự động.
 - **TypeScript**: Ngôn ngữ phát triển trên JavaScript với kiểm tra kiểu tĩnh giúp tăng tính chính xác và bảo trì.
 - **LangChain**: Thư viện Python hỗ trợ xây dựng ứng dụng ngôn ngữ tự nhiên phức tạp.
@@ -63,6 +75,7 @@
 - **Google AI Studio**: Công cụ phát triển ứng dụng AI của Google hỗ trợ xây dựng các ứng dụng thông minh.
 - **Docker**: Nền tảng container hóa phần mềm cho phép chạy ứng dụng mọi nơi.
 - **Docker-Compose**: Công cụ giúp quản lý các ứng dụng Docker đa container dễ dàng.
+- **Wikipedia API**: API cung cấp truy vấn các thông tin của câu hỏi của user dựa trên nguồn dữ liệu của Wikipedia.
 
 ---
 
@@ -101,7 +114,7 @@ Chạy lệnh trên prompt hoặc terminal sẽ khởi động cụm Budibase, v
 
 4. Cài đặt LangFlow platform:
 
-- Xem chi tiết hướng dẫn và giới thiệu tại [README](AI/README.md)
+- Xem chi tiết hướng dẫn và giới thiệu tại [README](AI/README.md).
 
 ---
 
@@ -126,4 +139,4 @@ Mọi đóng góp của các bạn đều được trân trọng, đừng ngần
 
 ## 📝 License
 
-Dự án này được cấp phép theo các điều khoản của giấy phép [GPL V3](LICENSE).
+Dự án này được cấp phép theo các điều khoản của giấy phép [GPL V3](https://www.gnu.org/licenses/gpl-3.0.html).
