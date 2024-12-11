@@ -1,4 +1,8 @@
-<h1>SOS Connect - Backend</h1>
+<h1>SOS Connect</h1>
+
+<p align="center">
+    <img src="docs/images/4858165.png" height=300 width=300>
+</p>
 
 [![Github license](https://img.shields.io/github/license/HIT-OS/SOS-CONNECT-BE.svg 'Github license')](https://github.com/HIT-OS/SOS-CONNECT-BE/blob/main/LICENSE)
 [![Open issues](https://img.shields.io/github/issues/HIT-OS/SOS-CONNECT-BE.svg 'Open issues')](https://github.com/HIT-OS/SOS-CONNECT-BE/issues)
