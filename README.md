@@ -82,6 +82,7 @@ Link slide thuyết trình dự thi tại [đây](https://www.canva.com/design/D
 - **Docker**: Nền tảng container hóa phần mềm cho phép chạy ứng dụng mọi nơi.
 - **Docker-Compose**: Công cụ giúp quản lý các ứng dụng Docker đa container dễ dàng.
 - **Wikipedia API**: API cung cấp truy vấn các thông tin của câu hỏi của user dựa trên nguồn dữ liệu của Wikipedia.
+- **Github Action**: Nền tảng miễn phí được thiết kế và xây dựng bởi Github. Nền tảng này giúp tự động hóa được quá trình CI/CD.
 
 ---
 
