@@ -35,6 +35,8 @@ Dự án được thực hiện trong cuộc thi Phần Mềm Nguồn Mở Olymp
 
 Để hiểu rõ hơn về hệ thống của dự án, có thể đọc tài liệu đặc tả của dự án tại [đây](docs/SRS_SOS_Connect.pdf)
 
+Link slide thuyết trình dự thi tại [đây](https://www.canva.com/design/DAGWnmJZWjo/QKufW1WAumndxgjB55kEaw/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
+
 ---
 
 ## ✨ Tính năng
