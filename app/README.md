@@ -96,7 +96,7 @@ Budibase được thiết kế để có thể mở rộng. Với Budibase, bạ
 
 ## Budibase API
 
-Như mọi thứ mà chúng tôi xây dựng trong Budibase, API công khai mới rất dễ sử dụng, linh hoạt và mang đến khả năng mở rộng mới. Tóm lại, API của Budibase cho phép:  
+Như mọi thứ mà chúng tôi xây dựng trong Budibase, API của nền tảng sẽ công khai, rất dễ sử dụng, linh hoạt và mang đến khả năng mở rộng mới. Tóm lại, API của Budibase cho phép:  
 
 - Sử dụng Budibase như một backend.  
 - Khả năng tương tác với các hệ thống khác.  
@@ -128,12 +128,12 @@ The Budibase documentation [tại đây](https://docs.budibase.com/docs).
 
 ## 💬 Cộng đồng
 
-Nếu bạn có bật cứ câu hỏi nào hoặc muốn nói chuyện và đóng góp với các nguwofi dùng Budibase khác, bạn có thể join vào cộng đồng của Budibase [Github discussions](https://github.com/Budibase/budibase/discussions)
+Nếu bạn có bật cứ câu hỏi nào hoặc muốn nói chuyện và đóng góp với các nguwofi dùng Budibase khác, bạn có thể join vào cộng đồng của Budibase [Github discussions](https://github.com/Budibase/budibase/discussions).
 
 
 ## 📝 License
 
-Budibase là một dự án mã ngùôn mở được cấp phép bởi [GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html). The client and component libraries are licensed as [MPL](https://directory.fsf.org/wiki/License:MPL-2.0) - so the apps you build can be licensed however you like.
+Budibase là một dự án mã ngùôn mở được cấp phép bởi [GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html). Clinet và các component được cấp phép bởi  [MPL](https://directory.fsf.org/wiki/License:MPL-2.0)
 
 #### **📬 Liên Hệ và Góp Ý**
 
@@ -142,4 +142,4 @@ Nếu bạn có bất kỳ câu hỏi nào hoặc muốn đóng góp cho dự á
     - Phạm Đình Tiến: phamdt203@gmail.com
     - Đặng Hoàng Phương: hoangphuong270703@gmail.com
     - Nguyễn Tiến Kiên: tienkiennropro@gmail.com
-- 🐙 **GitHub Issues**: [Issue]("https://github.com/HIT-OS/SOS-CONNECT-BE/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=")
+- 🐙 **GitHub Issues**: [Issue](https://github.com/HIT-OS/SOS-CONNECT-BE/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=)
