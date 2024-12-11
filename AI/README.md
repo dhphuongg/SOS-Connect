@@ -57,7 +57,10 @@
 #### **📬 Liên Hệ và Góp Ý**
 
 Nếu bạn có bất kỳ câu hỏi nào hoặc muốn đóng góp cho dự án, bạn có thể liên hệ qua email hoặc GitHub Issues:
-- ✉️ **Email**: phamdt203@gmail.com
+- ✉️ **Email**: 
+    - Phạm Đình Tiến: phamdt203@gmail.com
+    - Đặng Hoàng Phương: hoangphuong270703@gmail.com
+    - Nguyễn Tiến Kiên: tienkiennropro@gmail.com
 - 🐙 **GitHub Issues**: [Issue]("https://github.com/HIT-OS/SOS-CONNECT-BE/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=")
 
 

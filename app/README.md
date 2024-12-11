@@ -8,10 +8,10 @@
 </h1>
 
 <h3 align="center">
-  The low code platform you'll enjoy using
+  Nền tảng low code mã nguồn mở mạnh mẽ
 </h3>
 <p align="center">
-  Budibase is an open-source low-code platform that saves engineers 100s of hours building forms, portals, and approval apps, securely.
+  Budibase là một nền tảng mã nguồn mở có thể tiết kiệm hàng trăm giờ đống hồ trong việc xây dựng, thiết kế một ứng dụng. Nền tảng cho phép các lập trình viên xây dựng ứng dụng hoàn hảo trong một thời gian ngắn.
 </p>
 
 <h3 align="center">
@@ -54,77 +54,64 @@
 </h3>
 
 <br /><br />
-## ✨ Features
+## ✨ Lý do chọn nền tảng
 
-### Build and ship real software 
-Unlike other platforms, with Budibase you build and ship single page applications. Budibase applications have performance baked in and can be designed responsively, providing users with a great experience.
-<br /><br />
+### Xây dựng và triển khai phần mềm thực sự  
+Khác với các nền tảng khác, với Budibase, bạn có thể xây dựng và triển khai các ứng dụng trang đơn (SPA). Các ứng dụng Budibase được tối ưu hiệu suất ngay từ đầu và có khả năng thiết kế giao diện đáp ứng, mang đến cho người dùng trải nghiệm tuyệt vời.
+### **Mã nguồn mở và có khả năng mở rộng**  
+Budibase là mã nguồn mở, được cấp phép theo giấy phép GPL v3. Điều này mang lại sự tin tưởng rằng Budibase sẽ luôn tồn tại và phát triển. Bạn cũng có thể lập trình tích hợp với Budibase hoặc fork mã nguồn để thực hiện các thay đổi theo ý muốn, tạo ra trải nghiệm thân thiện cho nhà phát triển.  
 
-### Open source and extensible
-Budibase is open-source - licensed as GPL v3. This should fill you with confidence that Budibase will always be around. You can also code against Budibase or fork it and make changes as you please, providing a developer-friendly experience.
-<br /><br />
 
-### Load data or start from scratch
-Budibase pulls data from multiple sources, including MongoDB, CouchDB, PostgreSQL, MariaDB, MySQL, Airtable, S3, DynamoDB, or a REST API. And unlike other platforms, with Budibase you can start from scratch and create business apps with no data sources. [Request new datasources](https://github.com/Budibase/budibase/discussions?discussions_q=category%3AIdeas).
+### **Nạp dữ liệu hoặc bắt đầu từ đầu**  
+Budibase có khả năng nạp dữ liệu từ nhiều nguồn như **MongoDB, CouchDB, PostgreSQL, MariaDB, MySQL, Airtable, S3, DynamoDB, hoặc REST API**. Khác với các nền tảng khác, với Budibase, bạn có thể bắt đầu từ con số không và tạo các ứng dụng kinh doanh mà không cần dữ liệu nguồn. [Đề xuất các nguồn dữ liệu mới](https://github.com/Budibase/budibase/discussions?discussions_q=category%3AIdeas).
 
 <p align="center">
   <img alt="Budibase data" src="https://res.cloudinary.com/daog6scxm/image/upload/v1680281798/ui/data_klbuna.png">
 </p>
-<br /><br />
 
-### Design and build apps with powerful pre-made components
-
-Budibase comes out of the box with beautifully designed, powerful components which you can use like building blocks to build your UI. We also expose many of your favourite CSS styling options so you can go that extra creative mile. [Request new component](https://github.com/Budibase/budibase/discussions?discussions_q=category%3AIdeas).
-
+### Thiết kế và xây dựng ứng dụng với các thành phần mạnh mẽ được tạo sẵn  
+Budibase cung cấp sẵn các thành phần được thiết kế đẹp mắt và mạnh mẽ, bạn có thể sử dụng như các khối xây dựng để tạo giao diện người dùng (UI) của mình. Chúng tôi cũng cung cấp nhiều tùy chọn CSS yêu thích để bạn có thể thỏa sức sáng tạo thêm. [Đề xuất thành phần mới](https://github.com/Budibase/budibase/discussions?discussions_q=category%3AIdeas).
 <p align="center">
   <img alt="Budibase design" src="https://res.cloudinary.com/daog6scxm/image/upload/v1675437167/ui/form_2x_mbli8y.png">
 </p>
-<br /><br />
 
-### Automate processes, integrate with other tools and connect to webhooks
-Save time by automating manual processes and workflows. From connecting to webhooks to automating emails, simply tell Budibase what to do and let it work for you. You can easily [create new automations for Budibase here](https://github.com/Budibase/automations) or [Request new automation](https://github.com/Budibase/budibase/discussions?discussions_q=category%3AIdeas).
-<br /><br />
 
-### Integrate with your favorite tools
-Budibase integrates with a number of popular tools allowing you to build apps that perfectly fit your stack.
+### Tự động hóa quy trình, tích hợp với các công cụ khác và kết nối webhook  
+Tiết kiệm thời gian bằng cách tự động hóa các quy trình và luồng công việc thủ công. Từ việc kết nối với các webhook đến tự động hóa email, chỉ cần nói cho Budibase biết cần làm gì và để nó làm việc cho bạn. Bạn có thể dễ dàng [tạo mới các tự động hóa cho Budibase tại đây](https://github.com/Budibase/automations) hoặc [đề xuất tự động hóa mới](https://github.com/Budibase/budibase/discussions?discussions_q=category%3AIdeas).
+
+### Tích hợp với các công cụ yêu thích của bạn  
+Budibase tích hợp với nhiều công cụ phổ biến, cho phép bạn xây dựng các ứng dụng phù hợp hoàn hảo với hệ thống của mình.
 
 <p align="center">
   <img alt="Budibase integrations" src="https://res.cloudinary.com/daog6scxm/image/upload/v1680195228/ui/automate_fg9z07.png">
 </p>
-<br /><br />
 
-### Deploy with confidence and security
-Budibase is made to scale. With Budibase, you can self-host on your own infrastructure and globally manage users, onboarding, SMTP, apps, groups, theming and more. You can also provide users/groups with an app portal and disseminate user management to the group manager.
+### Triển khai với sự tự tin và an toàn  
 
-- Checkout the promo video: https://youtu.be/xoljVpty_Kw
+Budibase được thiết kế để có thể mở rộng. Với Budibase, bạn có thể tự lưu trữ trên hạ tầng của riêng mình và quản lý toàn cầu người dùng, quá trình onboarding, SMTP, ứng dụng, nhóm, giao diện và nhiều hơn thế nữa. Bạn cũng có thể cung cấp cho người dùng/nhóm một cổng ứng dụng và phân quyền quản lý người dùng cho quản lý nhóm.  
 
-<br />
+- Xem video giới thiệu: [https://youtu.be/xoljVpty_Kw](https://youtu.be/xoljVpty_Kw)  
 
 ---
 
-<br />
+## Budibase API
 
+Như mọi thứ mà chúng tôi xây dựng trong Budibase, API công khai mới rất dễ sử dụng, linh hoạt và mang đến khả năng mở rộng mới. Tóm lại, API của Budibase cho phép:  
 
-## Budibase Public API
-As with anything that we build in Budibase, our new public API is simple to use, flexible, and introduces new extensibility. To summarize, the Budibase API enables:
-
-- Budibase as a backend
-- Interoperability
+- Sử dụng Budibase như một backend.  
+- Khả năng tương tác với các hệ thống khác.  
 
 
 #### Docs
-You can learn more about the Budibase API at the following places:
+Bạn có thể tìm hiểu nhiều hơn tại:
+- [General documentation](https://docs.budibase.com/docs/public-api): Học cách lấy API Key, cách sử dụng spec, lấy API Key và cách sử dụng Postman.
+- [Interactive API documentation](https://docs.budibase.com/reference/appcreate) : Học cách tương tác với API
 
-- [General documentation](https://docs.budibase.com/docs/public-api): Learn how to get your API key, how to use spec, and how to use Postman
-- [Interactive API documentation](https://docs.budibase.com/reference/appcreate) : Learn how to interact with the API
+## 🏁 Hướng dẫn deploy
 
-<br /><br />
+Người dùng có thể deploy nền tảng Budibase bằng cách sử dụng Docker, Kubernetes, và Digital Ocean để dựng trên chính cơ sở hạ tầng của mình. Hoặc chúng ta có thể sử dụng Budibase Cloud nếu bạn không cần self-host và muốn bắt đầu làm việc nhanh chóng.
 
-## 🏁 Get started
-
-Deploy Budibase using Docker, Kubernetes, and Digital Ocean on your existing infrastructure. Or use Budibase Cloud if you don't need to self-host and would like to get started quickly.
-
-### [Get started with self-hosting Budibase](https://docs.budibase.com/docs/hosting-methods)
+### [Bắt đầu với self-hosting Budibase](https://docs.budibase.com/docs/hosting-methods)
 
 - [Docker - single ARM compatible image](https://docs.budibase.com/docs/docker)
 - [Docker Compose](https://docs.budibase.com/docs/docker-compose)
@@ -132,79 +119,27 @@ Deploy Budibase using Docker, Kubernetes, and Digital Ocean on your existing inf
 - [Digital Ocean](https://docs.budibase.com/docs/digitalocean)
 - [Portainer](https://docs.budibase.com/docs/portainer)
 
+### [Bắt đầu với Budibase Cloud](https://budibase.com)
 
-### [Get started with Budibase Cloud](https://budibase.com)
+## 🎓 Học cách sử dụng Budibase
 
-
-<br /><br />
-
-## 🎓 Learning Budibase
-
-The Budibase documentation [lives here](https://docs.budibase.com/docs).
-<br />
+The Budibase documentation [tại đây](https://docs.budibase.com/docs).
 
 
-<br /><br />
+## 💬 Cộng đồng
 
-## 💬 Community
-
-If you have a question or would like to talk with other Budibase users and join our community, please hop over to [Github discussions](https://github.com/Budibase/budibase/discussions)
-
-<br /><br /><br />
-
-
-## ❗ Code of conduct
-
-Budibase is dedicated to providing everyone a welcoming, diverse, and harassment-free experience. We expect everyone in the Budibase community to abide by our [**Code of Conduct**](https://github.com/Budibase/budibase/blob/HEAD/docs/CODE_OF_CONDUCT.md). Please read it.
-<br />
-
-
-<br /><br />
-
-
-## 🙌 Contributing to Budibase
-
-From opening a bug report to creating a pull request: every contribution is appreciated and welcomed. If you're planning to implement a new feature or change the API, please create an issue first. This way, we can ensure your work is not in vain.
-Environment setup instructions are available [here](https://github.com/Budibase/budibase/tree/HEAD/docs/CONTRIBUTING.md).
-
-### Not Sure Where to Start?
-A good place to start contributing is the [First time issues project](https://github.com/Budibase/budibase/projects/22).
-
-### How the repository is organized
-Budibase is a monorepo managed by lerna. Lerna manages the building and publishing of the budibase packages. At a high level, here are the packages that make up Budibase.
-
-- [packages/builder](https://github.com/Budibase/budibase/tree/HEAD/packages/builder) - contains code for the budibase builder client-side svelte application.
-
-- [packages/client](https://github.com/Budibase/budibase/tree/HEAD/packages/client) - A module that runs in the browser responsible for reading JSON definition and creating living, breathing web apps from it.
-
-- [packages/server](https://github.com/Budibase/budibase/tree/HEAD/packages/server) - The budibase server. This Koa app is responsible for serving the JS for the builder and budibase apps, as well as providing the API for interaction with the database and file system.
-
-For more information, see [CONTRIBUTING.md](https://github.com/Budibase/budibase/blob/HEAD/docs/CONTRIBUTING.md)
-
-<br /><br />
+Nếu bạn có bật cứ câu hỏi nào hoặc muốn nói chuyện và đóng góp với các nguwofi dùng Budibase khác, bạn có thể join vào cộng đồng của Budibase [Github discussions](https://github.com/Budibase/budibase/discussions)
 
 
 ## 📝 License
 
-Budibase is open-source, licensed as [GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html). The client and component libraries are licensed as [MPL](https://directory.fsf.org/wiki/License:MPL-2.0) - so the apps you build can be licensed however you like.
+Budibase là một dự án mã ngùôn mở được cấp phép bởi [GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html). The client and component libraries are licensed as [MPL](https://directory.fsf.org/wiki/License:MPL-2.0) - so the apps you build can be licensed however you like.
 
-<br /><br />
+#### **📬 Liên Hệ và Góp Ý**
 
-## ⭐ Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/Budibase/budibase.svg)](https://starchart.cc/Budibase/budibase)
-
-If you are having issues between updates of the builder, please use the guide [here](https://github.com/Budibase/budibase/blob/HEAD/docs/CONTRIBUTING.md#troubleshooting) to clear down your environment.
-
-<br /><br />
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-
-<a href="https://github.com/Budibase/budibase/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Budibase/budibase" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
+Nếu bạn có bất kỳ câu hỏi nào hoặc muốn đóng góp cho dự án, bạn có thể liên hệ qua email hoặc GitHub Issues:
+- ✉️ **Email**: 
+    - Phạm Đình Tiến: phamdt203@gmail.com
+    - Đặng Hoàng Phương: hoangphuong270703@gmail.com
+    - Nguyễn Tiến Kiên: tienkiennropro@gmail.com
+- 🐙 **GitHub Issues**: [Issue]("https://github.com/HIT-OS/SOS-CONNECT-BE/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=")

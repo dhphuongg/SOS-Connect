@@ -120,6 +120,17 @@ Chạy lệnh trên prompt hoặc terminal sẽ khởi động cụm Budibase, v
 
 - Xem chi tiết hướng dẫn và giới thiệu tại [README](AI/README.md).
 
+- Giới thiệu về Flow của dự án:
+    1.  Data Flow
+    <p align="center">
+        <img src="docs/images/data_flow.png">
+    </p>
+
+    2.  Retriever Flow
+    <p align="center">
+        <img src="docs/images/retriever_flow.png">
+    </p>    
+
 ---
 
 ## 🤝 Đóng góp cho dự án
