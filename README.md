@@ -77,7 +77,6 @@ Link slide thuyết trình dự thi tại [đây](https://www.canva.com/design/D
 - **ChromaDB**: Cơ sở dữ liệu vector để lưu trữ và truy vấn embeddings từ mô hình học sâu.
 - **Redis**: Hệ thống lưu trữ dữ liệu trong bộ nhớ cho quản lý phiên và cache.
 - **Budibase**: Nền tảng low-code phát triển ứng dụng web tích hợp cơ sở dữ liệu và giao diện trực quan.
-- **FlutterFlow**: Nền tảng low-code phát triển ứng dụng di động với giao diện đẹp mắt.
 - **Google AI Studio**: Công cụ phát triển ứng dụng AI của Google hỗ trợ xây dựng các ứng dụng thông minh.
 - **Docker**: Nền tảng container hóa phần mềm cho phép chạy ứng dụng mọi nơi.
 - **Docker-Compose**: Công cụ giúp quản lý các ứng dụng Docker đa container dễ dàng.
