@@ -44,7 +44,7 @@
     docker-compose up -d
    ```
 
-4. Truy cập vào LangFlow http://localhost:7860/ (nếu bạn dưng trên chính máy chủ của mình) hoặc http://your-ip-address:7860/ (nếu bạn dựng trên server của mình). Tiếp theo, bạn tạo mới một Flow cho AI với lựa chọn `Import`, thêm file import ([link tải](http://)) và bắt đầu phát triển ứng dụng.
+4. Truy cập vào LangFlow http://localhost:7860/ (nếu bạn dưng trên chính máy chủ của mình) hoặc http://your-ip-address:7860/ (nếu bạn dựng trên server của mình). Tiếp theo, bạn tạo mới một Flow cho AI với lựa chọn `Import`, import file Vector Store RAG.json và bắt đầu phát triển ứng dụng.
 
 <p align="center">
     <img src="../docs/images/langflow-import.png">
