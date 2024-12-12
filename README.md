@@ -113,7 +113,7 @@ docker-compose -f app/docker-compose.yml up -d --build
 
 Chạy lệnh trên prompt hoặc terminal sẽ khởi động cụm Budibase, việc cài đặt có thể mất một thời gian để tải xuống các tài nguyên cần thiết.
 
-- Khi ứng dụng sẵn sàng, bạn có thể truy cập [http://localhost:10000](http://localhost:10000), tạo mới một ứng dụng với lựa chọn `Import app`, thêm file import ([link tải](http://)) và bắt đầu phát triển ứng dụng.
+- Khi ứng dụng sẵn sàng, bạn có thể truy cập [http://localhost:10000](http://localhost:10000), tạo mới một ứng dụng với lựa chọn `Import app`, thêm file import ([link tải](https://github.com/HIT-OS/SOS-CONNECT/releases/download/v1.0.1/SOS.Connect.Client-export-1733963910578.tar.gz)) và bắt đầu phát triển ứng dụng.
 
 <p align="center">
     <img src="docs/images/new-app-with-import.png">
